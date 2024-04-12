@@ -16,13 +16,17 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" data-theme="retro">
             <body className={inter.className}>
                 <NavBar />
-
-                <div className="flex justify-center">
-                    <div className="bg-gray-200  mt-2 w-[80%]">
-                        {children}
+                <div className="flex justify-start mt-[6rem] ">
+                    <div className="ml-2 w-[18rem] rounded-lg bg-base-300">
+                    
+                    </div>
+                    <div className="flex justify-center mx-4 bg-base-300 rounded-lg w-full">
+                        <div className="">
+                            {children}
+                        </div>
                     </div>
                 </div>
             </body>
