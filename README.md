@@ -17,4 +17,5 @@ I want to make the process of finding pirated content easier for the average per
 - [x] Multilanguage Support
 
 # Attributions
+### Icons
 cloud piracy by NeueDeutsche from <a href="https://thenounproject.com/browse/icons/term/cloud-piracy/" target="_blank" title="cloud piracy Icons">Noun Project</a> (CC BY 3.0)
