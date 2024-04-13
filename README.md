@@ -16,9 +16,9 @@ I want to make the process of finding pirated content easier for the average per
 ## Features
 
 - [x] Piracy websites organized in easily navigatable categories
-- [x] Search that provides the best websites for finding specific content, software, etc.
-- [x] User accounts where for bookmarking, upvoting/downvoting, suggesting piracy websites and more...
-- [x] Forum for discussing different topics and sharing guides
+- [x] Search feature that provides the best websites for finding specific content, software, etc.
+- [x] User accounts for bookmarking, upvoting/downvoting, suggesting piracy websites and more...
+- [x] Forum for discussing piracy related topics
 - [x] Multilanguage Support
 
 Make a suggestion!
