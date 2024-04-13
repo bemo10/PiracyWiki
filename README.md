@@ -1,6 +1,6 @@
 # PiracyWiki
 
-![image](https://private-user-images.githubusercontent.com/65511906/322188641-9de35269-b9a8-4c7f-ba36-cb85896f9dba.png)
+![Home](./public/images/readme-banner.png)
 
 This is an open source project that aims to make it easier to find piracy websites.
 
