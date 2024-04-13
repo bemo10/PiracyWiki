@@ -1,15 +1,24 @@
 import React from 'react'
 import WebsiteCard from '@/app/components/WebsiteCard'
 
-const WebsiteList = () => {
+interface Props {
+    websites : Array<Website>;
+}
+
+const WebsiteList = ({ websites } : Props) => {
     return (
-        <div className='flex flex-wrap justify-center gap-8'>
-            <WebsiteCard />
-            <WebsiteCard />
-            <WebsiteCard />
-            <WebsiteCard />
-            <WebsiteCard />
-            <WebsiteCard />
+        <div>
+            <div className='flex flex-wrap justify-center gap-8'>
+                {websites.map(website => 
+                    <WebsiteCard key={website.url} website={website}/>
+                )}
+            </div>
+            <div className='flex flex-row justify-center'>
+                {/* <div className='btn btn-ghost btn-md mt-4 font-bold'> */}
+                    {/* TODO: This button should open a search with the queries that correspond to this category/subcategory */}
+                    <a className='mt-8 font-bold' href="/search?category&subcategory">More</a>
+                {/* </div> */}
+            </div>
         </div>
     )
 }
