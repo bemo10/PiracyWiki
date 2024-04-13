@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/app/components/NavBar";
+import NavBar from "@/app/components/layout/NavBar";
+import SideNavBar from "@/app/components/layout/SideNavBar";
+import HomeButton from "@/app/components/layout/HomeButton";
+import SideBarFooter from "@/app/components/layout/SideBarFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,16 +19,23 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" data-theme="retro">
-            <body className={inter.className}>
-                <NavBar />
-                <div className="flex justify-start mt-[6rem] ">
-                    <div className="ml-2 w-[18rem] rounded-lg bg-base-300">
-                    
+        <html lang="en" data-theme="cmyk">
+            <body >
+                <div className="flex flex-row justify-start h-screen">
+                    <div className="flex flex-col z-10">
+                        <HomeButton />
+                        <SideNavBar />
+                        <SideBarFooter />
                     </div>
-                    <div className="flex justify-center mx-4 bg-base-300 rounded-lg w-full">
-                        <div className="">
-                            {children}
+
+                    <div className="flex flex-col w-full">
+                        <NavBar />
+                        <div className="flex justify-start overflow-y-scroll">
+                            <div className="mx-4 w-full">
+                                <div className="">
+                                    {children}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
