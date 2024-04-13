@@ -6,7 +6,7 @@ Most of the content comes from the r/piracy subreddit.
 
 # Why
 
-I wanted to make the process of finding pirated content easier for the average person, by .providing an easy to navigate website.
+I want to make the process of finding pirated content easier for the average person, by providing an easy to navigate website that contains links, guides and information about different piracy websites.
 
 # Features
 
