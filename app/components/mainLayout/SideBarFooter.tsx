@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const SideBarFooter = () => {
   return (
-      <div className='flex flex-row justify-center gap-6 mt-auto pt-8 pb-4 '>
+      <div className='flex flex-row justify-center gap-6 mt-auto py-8'>
           <a href="https://www.github.com/" target='_blank'>
               <Image src="/assets/icons/github.png" alt='piracy' width={24} height={24} quality={100}></Image>
           </a>
