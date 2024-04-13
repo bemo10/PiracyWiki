@@ -21,6 +21,8 @@ I want to make the process of finding pirated content easier for the average per
 - [x] Forum for discussing different topics and sharing guides
 - [x] Multilanguage Support
 
+Make a suggestion!
+
 ## Attributions
 
 ### Icons
