@@ -1,6 +1,6 @@
 # PiracyWiki
 
-![Home](./public/images/readme-banner.png)
+![readme-banner](https://github.com/bemo10/PiracyWiki/assets/65511906/57e2afa8-9509-4472-8e07-ca5403661099)
 
 This is an open source project that aims to make it easier to find piracy websites.
 
