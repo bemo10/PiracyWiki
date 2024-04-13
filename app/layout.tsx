@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/app/components/layout/NavBar";
-import SideNavBar from "@/app/components/layout/SideNavBar";
-import HomeButton from "@/app/components/layout/HomeButton";
-import SideBarFooter from "@/app/components/layout/SideBarFooter";
+import NavBar from "@/app/components/mainLayout/NavBar";
+import SideNavBar from "@/app/components/mainLayout/SideNavBar";
+import HomeButton from "@/app/components/mainLayout/HomeButton";
+import SideBarFooter from "@/app/components/mainLayout/SideBarFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
