@@ -9,8 +9,8 @@ import SideBarFooter from "@/app/components/mainLayout/SideBarFooter";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Next Js 14 Project",
-    description: "Next Js 14 learning project",
+    title: "PiracyWiki",
+    description: "The internet's wiki for all things piracy",
 };
 
 export default function RootLayout({
@@ -22,14 +22,16 @@ export default function RootLayout({
         <html lang="en" data-theme="cmyk">
             <body >
                 <div className="flex flex-row justify-start h-screen">
+                    {/* sidebar */}
                     <div className="flex flex-col z-10">
                         <HomeButton />
                         <SideNavBar />
                         <SideBarFooter />
                     </div>
-
                     <div className="flex flex-col w-full">
+                        {/* navbar */}
                         <NavBar />
+                        {/* content */}
                         <div className="flex justify-start overflow-y-scroll">
                             <div className="mx-4 w-full">
                                 <div className="">
