@@ -14,26 +14,24 @@ const PageContent = async () => {
     const torrentWebsites = websites;
 
     return (
-        <>
-            <h1 className="mt-5 mb-8 text-3xl font-bold">Movies & TV Shows</h1>
+        <div>
+            <h1 className="mt-5 mb-8 ml-4 text-3xl font-bold">Movies & TV Shows</h1>
 
-            <div className="divider divider-start mt-11 mb-8">
-                <h1 className="text-lg font-bold">Streaming</h1>
+            <div className="divider divider-start mt-11 mb-8 px-11">
+                <h1 className="text-lg font-bold text-slate-500">Streaming</h1>
             </div>
             <WebsiteList websites={streamingWebsites} />
 
-            <div className="divider divider-start mt-11 mb-8">
-                <h1 className="text-lg font-bold">Direct donwloads</h1>
+            <div className="divider divider-start mt-11 mb-8 px-11">
+                <h1 className="text-lg font-bold text-slate-500">Direct downloads</h1>
             </div>
             <WebsiteList websites={directDownloadWebsites} />
 
-            <div className="divider divider-start mt-[5rem] mb-8">
-                <h1 className="text-lg font-bold">Torrents</h1>
+            <div className="divider divider-start mt-[5rem] mb-8 px-11">
+                <h1 className="text-lg font-bold text-slate-500">Torrents</h1>
             </div>
             <WebsiteList websites={torrentWebsites} />
-
-            <div className='py-11' />
-        </>
+        </div>
     )
 }
 
