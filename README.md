@@ -13,7 +13,19 @@ Not available yet...
 
 I want to make the process of finding pirated content easier for the average person, by providing an easy to navigate website that contains links, guides and information about different piracy websites.
 
-## Features
+## How to run locally
+
+1. Clone the repo
+2. Run
+```
+npm install
+```
+3. Run
+```
+npm run dev
+```
+
+## Planned features
 
 - [x] Piracy websites organized in easily navigatable categories
 - [x] Search feature that provides the best websites for finding specific content, software, etc.
