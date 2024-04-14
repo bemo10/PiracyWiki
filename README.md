@@ -40,3 +40,5 @@ Make a suggestion!
 ### Icons
 
 cloud piracy by NeueDeutsche from <a href="https://thenounproject.com/browse/icons/term/cloud-piracy/" target="_blank" title="cloud piracy Icons">Noun Project</a> (CC BY 3.0)
+
+Profile picture by Shocho from <a href="https://thenounproject.com/browse/icons/term/profile-picture/" target="_blank" title="Profile picture Icons">Noun Project</a> (CC BY 3.0)
