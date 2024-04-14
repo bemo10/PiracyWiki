@@ -5,6 +5,7 @@ import NavBar from "@/app/components/mainLayout/NavBar";
 import SideNavBar from "@/app/components/mainLayout/SideNavBar";
 import HomeButton from "@/app/components/mainLayout/HomeButton";
 import SideBarFooter from "@/app/components/mainLayout/SideBarFooter";
+import Footer from "@/app/components/mainLayout/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,26 +21,36 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" data-theme="cmyk">
-            <body >
-                <div className="flex flex-row justify-start h-screen">
-                    {/* sidebar */}
-                    <div className="flex flex-col z-10">
-                        <HomeButton />
-                        <SideNavBar />
-                        <SideBarFooter />
-                    </div>
-                    <div className="flex flex-col w-full">
-                        {/* navbar */}
-                        <NavBar />
-                        {/* content */}
-                        <div className="flex justify-start overflow-y-scroll">
-                            <div className="mx-4 w-full">
-                                <div className="">
-                                    {children}
-                                </div>
+            <body>
+                {/* <div className="flex flex-col justify-start h-full w-full"> */}
+                <div className="flex flex-col h-screen">
+                    {/* navbar */}
+                    <NavBar />
+
+                    <div className="flex flex-row justify-start flex-grow overflow-y-hidden">
+
+                        {/* sidebar */}
+                        <div className="flex flex-col justify-start flex-none h-full w-[16rem] pr-1 border-r">
+                            {/* <HomeButton /> */}
+                            <div className="mt-11 overflow-y-auto">
+                                <SideNavBar />
+                            </div>
+                            <div className="mt-auto">
+                                <SideBarFooter />
                             </div>
                         </div>
+
+                        {/* content */}
+                        <div className="flex-1 overflow-y-auto">
+                            <div className="px-4">
+                                {children}
+                            </div>
+                            <div className="divider my-11 px-11 text-slate-500">Sail the high seas 🌊 🏴‍☠️</div>
+                            <Footer />
+                        </div>
+
                     </div>
+
                 </div>
             </body>
         </html>
