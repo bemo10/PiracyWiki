@@ -30,12 +30,12 @@ export default function RootLayout({
                     <div className="flex flex-row justify-start flex-grow overflow-y-hidden">
 
                         {/* sidebar */}
-                        <div className="flex flex-col justify-start flex-none h-full w-[16rem] pr-1 border-r">
+                        <div className="flex flex-col justify-start flex-none h-full w-[18rem] pr-1 border-r">
                             {/* <HomeButton /> */}
-                            <div className="mt-11 overflow-y-auto">
+                            <div className="pt-11 overflow-y-auto">
                                 <SideNavBar />
                             </div>
-                            <div className="mt-auto">
+                            <div className="mt-auto border-t">
                                 <SideBarFooter />
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export default function RootLayout({
                             <div className="px-4">
                                 {children}
                             </div>
-                            <div className="divider my-11 px-11 text-slate-500">Sail the high seas 🌊 🏴‍☠️</div>
+                            <div className="divider mt-[5em] mb-11 px-11 text-slate-500">Sail the high seas 🌊 🏴‍☠️</div>
                             <Footer />
                         </div>
 
