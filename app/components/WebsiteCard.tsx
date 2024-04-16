@@ -10,7 +10,7 @@ const WebsiteCard = ({ website }: Props) => {
         .substring(0, 50 + Math.random() * 100);
 
     return (
-        <div className="card compact px-2 w-96 bg-base-100 shadow border">
+        <div className="card compact px-2 bg-base-100 shadow border">
             <div className="card-body">
                 <div className='flex flex-row justify-start gap-4'>
                     <h2 className="flex-1 card-title">
@@ -20,7 +20,7 @@ const WebsiteCard = ({ website }: Props) => {
                             {website.url.substring(website.url.indexOf(".") + 1)}
                         </a>
                     </h2>
-                    <Image className='flex-none' src={website.imageUrl} alt='piracy' width={50} height={50}></Image>
+                    <Image className='flex-none w-[50px] h-[50px]' src={website.imageUrl} alt='piracy' width={50} height={50}></Image>
                 </div>
                 <p>
                     {website.description}
