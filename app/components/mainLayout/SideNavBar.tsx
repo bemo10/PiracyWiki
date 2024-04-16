@@ -3,8 +3,8 @@ import React from 'react'
 const SideBar = () => {
     return (
         <>
-            <div className="ml-2 font-semibold text-slate-600">
-                <ul className="menu">
+            <div className="ml-2">
+                <ul className="menu text-base font-medium text-slate-600">
                     <li><a>General Purpose</a></li>
                     <li>
                         <details>

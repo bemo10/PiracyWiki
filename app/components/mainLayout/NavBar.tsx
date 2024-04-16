@@ -14,7 +14,7 @@ const NavBar = () => {
             <div className='flex-1'>
                 <SearchBar />
             </div>
-            <div className='flex-none gap-4'>
+            <div className='flex-none gap-6'>
                 <a className="text-xs leading-5 font-medium text-primary border rounded-full hover:shadow px-3" href='https://www.reddit.com/r/Piracy/wiki/megathread/' target='_blank'>
                     r/piracy megathread
                 </a>
