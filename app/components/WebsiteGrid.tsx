@@ -33,5 +33,3 @@ const WebsiteGrid = ({ websites }: Props) => {
 }
 
 export default WebsiteGrid
-
-// 384
