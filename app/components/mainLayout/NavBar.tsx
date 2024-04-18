@@ -4,10 +4,8 @@ import SearchBar from '@/app/components/mainLayout/SearchBar'
 import HomeButton from '@/app/components/mainLayout/HomeButton'
 
 const NavBar = () => {
-
-
     return (
-        <div className='navbar z-10 bg-base-100 border-b'>
+        <div className='navbar z-10 bg-base-100 border-b max-h-16'>
             <div className="flex-1 ml-8">
                 <HomeButton />
             </div>
