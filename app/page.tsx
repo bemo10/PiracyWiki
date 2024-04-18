@@ -1,11 +1,13 @@
 import Image from "next/image";
-import PageContent from "@/app/components/PageContent";
+import CategoryContent from "@/app/components/CategoryContent";
 
 export default function Home() {
     return (
         <main>
-            <PageContent />
-
+            <h1>Main Page</h1>
+            <p>No content for not</p>
+            <p>TODO: Display popular websites</p>
+            {/* <CategoryContent /> */}
         </main>
     );
 }
